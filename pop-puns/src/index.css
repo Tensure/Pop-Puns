@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background-color: rgba(123,251,142,1);
+  opacity: 0.8;
+  background-image:  linear-gradient(135deg, rgba(243,179,140,1) 25%, transparent 25%), linear-gradient(225deg, rgba(243,179,140,1) 25%, transparent 25%), linear-gradient(45deg, rgba(243,179,140,1) 25%, transparent 25%), linear-gradient(315deg, rgba(243,179,140,1) 25%, rgba(123,251,142,1) 25%);
+  background-position:  10px 0, 10px 0, 0 0, 0 0;
+  background-size: 20px 20px;
+  background-repeat: repeat;
+  color: rgb(11, 11, 11);
+  padding: 20px;
+}
+
+.header-image {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header-title{
+  font-size: 20px;
+  margin-right: auto
+}
+
+.app-function{
+  font-size: 12px;
+}

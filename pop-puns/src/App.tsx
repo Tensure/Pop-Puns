@@ -2,15 +2,25 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import styled from 'styled-components';
+import Header from './components/Header';
+import Joke from "./components/Joke";
 
-const StyledContainer = styled.div`
-  height: 100vh;
-  width: 100visualViewport;
-  background: rgb(111, 143, 175);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`
+
+
+
+
+
+
+
+
+// const Background = styled.div`
+//   height: 100vh;
+//   width: 100visualViewport;
+//   background: rgb(111, 143, 175);
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// `
 
 // const StyledSquare = styled.div`
 // width: 100px; 
@@ -19,7 +29,13 @@ const StyledContainer = styled.div`
 // `;
 
 const App = () => {
-  return <StyledContainer/>
+  return (
+    <div>
+      {/* <Background /> */}
+      <Header />
+      <Joke />
+    </div>
+  )
 }
 
 

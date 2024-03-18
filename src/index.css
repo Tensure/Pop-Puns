@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(96,174,249,1);
+}
+
+main {
+  padding: 36px;
 }
 
 code {
@@ -38,4 +43,33 @@ code {
 
 .app-function{
   font-size: 12px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form--input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background-color: rgba(123,251,142,1);
+  opacity: 0.8;
+  background-image:  linear-gradient(135deg, rgba(243,179,140,1) 25%, transparent 25%), linear-gradient(225deg, rgba(243,179,140,1) 25%, transparent 25%), linear-gradient(45deg, rgba(243,179,140,1) 25%, transparent 25%), linear-gradient(315deg, rgba(243,179,140,1) 25%, rgba(123,251,142,1) 25%);
+  background-position:  10px 0, 10px 0, 0 0, 0 0;
+  background-size: 20px 20px;
+  background-repeat: repeat;
+  color: rgb(11, 11, 11);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
 }
